@@ -1,0 +1,80 @@
+.inputDiv{
+    position: absolute;
+    /* width: 95%; */
+    padding: 5px;
+    background-color:#F0F0F0;
+    height: 8%;
+    text-align: center;
+
+    align-items: center;
+  /* margin-left: 20px; */
+  border-radius: 10px,10px,10px,10px;
+
+  display: flex;
+  justify-content:center;
+  
+
+  position: fixed;
+  left: 3%;
+  right: 3%;
+  bottom: 2%;
+}
+.input{
+
+    padding: 20px;
+    border: none;
+    border-radius: 40px;
+    width: 40%;
+    height: 5px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+    
+    
+
+}
+.sendButton{
+    /* background-color: #128C7E;
+    border-radius: 100%;
+    border:none;
+    margin-left: 10px;
+    border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+  cursor: pointer; */
+  background: url('https://listapa.com.br/site/images/send-button.svg') no-repeat 25% 50% ;
+  width:40px; 
+  height:40px; 
+  border: 0;
+  background-size: 100%; /* To fill the dimensions of container (button), or */
+  background-size: 40px auto; /* to specify dimensions explicitly */
+  margin-left: 10px;
+  border-radius: 100%;
+  border:none;
+
+
+  
+  
+  
+
+/* background-repeat:no-repeat; */
+}
+.cancelButton{
+  /* background: url('https://listapa.com.br/site/images/send-button.svg') no-repeat 25% 50% ; */
+  width:90px; 
+  height:40px; 
+  border: 0;
+  margin-right: 10px;
+  border-radius: 10%;
+  border:none;
+  background-color: #128C7E;
+  color: white;
+  font-weight: bold;
+  font-size:small;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

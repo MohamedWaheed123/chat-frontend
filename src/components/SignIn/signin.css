@@ -1,0 +1,76 @@
+.mainForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+        top: 5%;
+        left: 0;
+        right: 0;
+        bottom: 5%;
+padding: 10%;
+
+}
+
+.registerFormDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color:#F0F0F0;
+    justify-content: center;
+    align-items: center;
+    
+    /* position: fixed;
+        top: 10%;
+        left: 15%;
+        right: 0; */
+        width: 27%;
+        height: 530px;
+        border-radius: 20px;
+        min-width: 300px;
+}
+.registerimg{
+    /* margin-left: 7%; */
+    position: fixed;
+    top: 27%;
+    left: 39%;
+    width: 55;
+    height: 55px;
+
+}
+
+.innerDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color:#F0F0F0;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+    
+}
+.registerInput{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 85%;
+    margin-top: 8px;
+    height: 5px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+}
+.registerBtn{
+    background-color: #00A357;
+    width:100px; 
+    height:40px; 
+    border: 0;
+    margin-top: 10px;
+   
+    margin-left: 10px;
+    border-radius: 10%;
+    border:none;
+    color: white;
+  
+}
